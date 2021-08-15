@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caner Cırık</title>
+    <meta name="keyword" content="html,css,javascript" >
+    <meta name="description" content="Caner Cırık">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="/CSS/global.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="/CSS/mobile.css">
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Caner Cırık</h1>
+    
+                <ul>    
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#songs">Playlists</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>       
+    </header>
+
+
+    <section id="home">
+        <div class="card">
+            <div class="imgbox">
+                <img src="/images/1627920415653.jpg" alt="Caner Cırık">
+            </div>
+
+            <div class="content">
+                <div class="details">
+                    <h2>Caner Cırık <br> <span>Junior Developer</span></h2>
+                    <ul class="social-icons heading-small">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- <section id="playlists">
+        <h3 class="text-center heading-medium">My Playlists</h3>
+    </section> -->
+
+            <div id="songs">   
+                <div class="timeline">
+                  <ul> 
+                    <li> 
+                      <div class="timeline-content">
+                        <h3 class="date">First</h3>
+                        <p><iframe src="https://open.spotify.com/embed/playlist/2sjBAJjN4BbGGY264qPkPX" width="100%" height="238" frameBorder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 20px 0 20px 20px;" ></iframe></p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-content">
+                        <h3 class="date">Second</h3>
+                        <p><iframe src="https://open.spotify.com/embed/playlist/6rajvmKQrBmpVCUjVMqSTo" width="100%" height="238" frameBorder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 0 20px 20px 20px;" ></iframe></p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-content">
+                        <h3 class="date">Third (just for fun)</h3>
+                        <p><iframe src="https://open.spotify.com/embed/playlist/6zESjsdMdKa3yiX9r4Yy6F" width="100%" height="238" frameBorder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 20px 0 20px 20px;" ></iframe></p>
+                      </div>
+                    </li>
+                
+                  </ul>
+                </div>
+              </div>    
+    </section>
+
+   <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <H4 class="text-center heading-medium" style="color: white; margin-top: 1rem;">CONTACT ME</H4>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text"  class="form-control" name="name" id="name" placeholder="Name">
+
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="text"  class="form-control" name="email" id="email" placeholder="E-Mail">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Messagge</label>
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Messagge"></textarea>
+                </div>
+                <button type="submit" class="btn btn-block" style="margin-bottom: 1rem;">Send</button>
+            </form>
+
+        </div>
+    </footer>
+</body>
+</html>

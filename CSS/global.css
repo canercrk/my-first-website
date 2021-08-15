@@ -1,0 +1,64 @@
+/* her tarafta kullanacğımız classlarımızı burada biriktireceğiz */
+
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.2rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big {
+    font-size: 1.7rem;
+}
+
+/* colors */
+
+.bg-dark-blue{
+    background-color: #062e51;
+}
+.bg-light-blue{
+    background-color: #336ea2;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.btn{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #062E51;
+    padding: 0.5rem;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.0px );
+    -webkit-backdrop-filter: blur( 2.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+} 
+
+ .form-group{
+    padding: 0.25rem;
+}
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding:0.4rem;
+    font-size: 0.8rem;
+    resize: none;
+    border-radius: 10px;
+}
+
+
